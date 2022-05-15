@@ -63,7 +63,6 @@ function TweetBox({ setTweets }: Props) {
   }
   const handleSubmit = (e: MouseEvent<HTMLButtonElement, globalThis.MouseEvent>) => {
     e.preventDefault();
-    console.log(input);
 
     // if (!input) return;
     debugger
